@@ -4,59 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ejercicio1</title>
   </head>
-  <header></header>
   <body>
-    <div class="main" id="principal">
-      <div id="texto">
-        <h2>Login Form</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque
-          similique at vel nostrum soluta quasi nobis explicabo, ipsa delectus
-          obcaecati voluptate inventore quibusdam, repellendus facilis facere
-          nisi laborum fugiat.
-        </p>
-      </div>
-      <div class="formulario">
-        <h4>Login to our site</h4>
-        <h5>Enter Username and Password</h5>
+    <header></header>
 
-        <form>
-          <br />
-          <br />
-          <div class="mb-3">
-            <input
-              type="username"
-              class="form-control"
-              id="username"
-              placeholder="Username"
-            />
+    <main>
+      <div class="contenedor-flex">
+        <div class="d-flex flex-column bd-highlight mb-3">
+          <div class="p-2 bd-highlight contenedor-flex-titulo">
+            <h1>Login Form</h1>
+            <div class="contenedor-flex-titulo-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+                reprehenderit quaerat veniam quis soluta voluptatibus iure illo
+                sed eius. Atque quibusdam obcaecati cupiditate praesentium quo.
+                Fugit sed maiores deserunt pariatur.
+              </p>
+            </div>
           </div>
-          <div class="mb-3">
-            <input
-              type="password"
-              class="form-control"
-              id="password"
-              placeholder="Password"
-            />
+
+          <div class="contenedor-flex-formulario">
+            <div class="p-2 bd-highlight contenedor-formulario-titulo">
+              <p>Login to our site</p>
+              <p>Enter Username and Password</p>
+            </div>
+
+            <div class="p-2 bd-highlight">
+              <div class="contenedor-formulario">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Username"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary btn-logIn" type="button">
+                    Log in
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <button type="submit" class="btn">Log in</button>
-        </form>
+
+          <div class="p-2 bd-highlight contenedor-loginwith">
+            <div class="d-inline-flex p-2 bd-highlight">
+              <p>Login with</p>
+            </div>
+          </div>
+          <div class="p-2 bd-highlight contenedor-btn-bottom">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
+    <footer></footer>
   </body>
-  <footer></footer>
 </html>

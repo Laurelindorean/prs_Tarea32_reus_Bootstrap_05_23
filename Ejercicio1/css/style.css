@@ -1,49 +1,70 @@
 * {
-background-color: antiquewhite;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.main {
-  padding-top: 100px;
-  text-align: center;
+body {
+  background-image: url("../img/img.jpg");
 }
 
-#texto {
-  width: 40%;
-  text-align: center;
-  margin: 0 auto;
+body main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
-.formulario {
-  border: 2px solid;
-  width: 500px;
-  height: 300px;
-  padding-left: 5px;
-  margin: 0 auto;
-  text-align: left;
+body main .contenedor-flex {
+  margin: 20%;
+  width: 50%;
+}
+
+body main .contenedor-flex .contenedor-flex-titulo {
+  color: white;
+  text-align: center;
+}
+
+body main .contenedor-flex .contenedor-flex-formulario {
   background-color: white;
-
-}
-.formulario h4, .formulario h5{
-    background-color: white;
-   
+  border-radius: 5px;
 }
 
-form {
+body main .contenedor-flex .contenedor-flex-formulario .contenedor-formulario {
+  background-color: #b6b6b6;
+  margin: -8px;
+  padding: 10px;
+}
 
-  width: 490px;
-  height: 200px;
-  
+body main .contenedor-flex .contenedor-loginwith {
+  color: white;
+  text-align: center;
 }
-form .form-control {
- 
-  width: 98%;
+
+body main .contenedor-flex .contenedor-btn-bottom {
+  align-self: center;
 }
-form .btn {
-  background-color: brown;
-  width: 98%;
+
+body main .contenedor-flex .contenedor-btn-bottom .fa {
+  padding: 15px 15px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+body main .contenedor-flex .contenedor-btn-bottom .fa:hover {
+  opacity: 0.7;
+}
+
+body main .contenedor-flex .contenedor-btn-bottom .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+body main .contenedor-flex .contenedor-btn-bottom .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+body main .contenedor-flex .contenedor-btn-bottom .fa-google {
+  background: #dd4b39;
+  color: white;
 }
