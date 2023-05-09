@@ -7,9 +7,6 @@ $(document).ready(function () {
 
   $("button").click(function () {
     entry = $(this).attr("value");
-
-    
-    
     if (entry === "ac") {
       entry = 0;
       eq = 0;
@@ -17,7 +14,6 @@ $(document).ready(function () {
       curNumber = 0;
       $("#result p").html(entry);
       $("#previous p").html(eq);
-     
     } else if (entry === "ce") {
       if (eq.length > 1) {
         eq = eq.slice(0, -1);
